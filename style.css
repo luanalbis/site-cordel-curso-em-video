@@ -31,9 +31,10 @@ span{
 
 p{
     font-family: 'Sriracha', cursive;
-    font-size: 3.7vw;
+    font-size:4vw;
     line-height: 2em;
-
+    display: inline-block;
+    padding-right: 20px;
 }
 
 header{ 
@@ -52,7 +53,6 @@ main{
     background-color: white;
     max-width: 1200px;
     margin: auto;
-    
 }
 
 div{
@@ -98,4 +98,8 @@ a{
 
 a:hover{
     text-decoration: underline ;
+}
+
+footer > p {
+    display: block;
 }
