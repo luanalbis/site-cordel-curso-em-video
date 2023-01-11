@@ -1,0 +1,97 @@
+@charset " UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family:'Sriracha';
+    src: url(fontes/Sriracha-Regular.ttf);
+}
+
+@font-face {
+    font-family:'Passion One';
+    src: url(fontes/PassionOne-Regular.ttf);
+}
+
+body{
+    margin: auto;
+}
+
+h1{
+    font-family: 'Passion One', cursive;
+    font-size: 8vw;
+}
+
+span{
+    font-size: 1.3em;
+}
+
+p{
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
+    line-height: 2em;
+
+}
+
+header{ 
+    text-align: center ;
+    color: white;  
+    background-color: black; 
+    padding: 5% 10%;
+}
+
+header > p {
+    font-family: san sans-serif;
+    font-size: 16px;
+}
+
+main{
+    background-color: white;
+    
+}
+
+div{
+    margin-bottom: 40px;
+    padding: 40px;
+}
+
+section{
+    color: white;
+    margin: 50px 0;
+}
+
+section > p {
+    background-color: rgba(0, 0, 0, 0.473);
+    max-width: 50%;
+}
+
+#fundo1 {
+    background: fixed center center url(imagens/background001.jpg);
+    background-attachment: fixed;
+}
+
+#fundo2 {
+    background: fixed center center url(imagens/background002.jpg);
+    background-attachment: fixed;
+}
+
+.dados{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+    background-color: black;
+    color: white;
+    font-size: 1.8vw;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline ;
+}
