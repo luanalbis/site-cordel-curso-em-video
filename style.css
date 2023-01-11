@@ -17,7 +17,7 @@
 }
 
 body{
-    margin: auto;
+    background-color: rgb(255, 255, 102);
 }
 
 h1{
@@ -31,7 +31,7 @@ span{
 
 p{
     font-family: 'Sriracha', cursive;
-    font-size: 3.5vw;
+    font-size: 3.7vw;
     line-height: 2em;
 
 }
@@ -50,12 +50,13 @@ header > p {
 
 main{
     background-color: white;
-    max-width: 100%;
+    max-width: 1200px;
+    margin: auto;
     
 }
 
 div{
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     padding: 40px;
 }
 
@@ -66,17 +67,19 @@ section{
 
 section > p {
     background-color: rgba(0, 0, 0, 0.473);
-    max-width: 50%;
+    max-width: 80%;
 }
 
 #fundo1 {
     background: fixed center center url(imagens/background001.jpg);
     background-attachment: fixed;
+    margin: 50px 0;
 }
 
 #fundo2 {
     background: fixed center center url(imagens/background002.jpg);
     background-attachment: fixed;
+    margin: 50px 0;
 }
 
 .dados{
