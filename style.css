@@ -71,13 +71,13 @@ section > p {
 }
 
 #fundo1 {
-    background: fixed no-repeat center center url(imagens/background001.jpg);
+    background: fixed center center url(imagens/background001.jpg);
     background-attachment: fixed;
     margin: 50px 0;
 }
 
 #fundo2 {
-    background: fixed no-repeat center center url(imagens/background002.jpg);
+    background: fixed center center url(imagens/background002.jpg);
     background-attachment: fixed;
     margin: 50px 0;
 }
