@@ -50,6 +50,7 @@ header > p {
 
 main{
     background-color: white;
+    max-width: 100%;
     
 }
 
@@ -84,7 +85,7 @@ section > p {
     font-weight: lighter;
     background-color: black;
     color: white;
-    font-size: 1.8vw;
+    font-size: 16px;
 }
 
 a{
