@@ -17,7 +17,7 @@
 }
 
 body{
-    background-color: rgb(255, 255, 102);
+    background-color: rgb(143, 143, 131);
 }
 
 h1{
@@ -31,7 +31,7 @@ span{
 
 p{
     font-family: 'Sriracha', cursive;
-    font-size:4vw;
+    font-size:3.8vw;
     line-height: 2em;
     display: inline-block;
     padding-right: 20px;
@@ -45,7 +45,7 @@ header{
 }
 
 header > p {
-    font-family: san sans-serif;
+    font-family:sans-serif;
     font-size: 16px;
 }
 
@@ -57,38 +57,26 @@ main{
 
 div{
     margin-bottom: 0px;
-    padding: 40px;
+    padding:10vw 6vw;   
 }
 
 section{
-    color: white;
-    margin: 50px 0;
+    color: white;   ;
 }
 
 section > p {
     background-color: rgba(0, 0, 0, 0.473);
-    max-width: 80%;
+    max-width: 90%;
 }
 
 #fundo1 {
     background: fixed center center url(imagens/background001.jpg);
-    background-attachment: fixed;
-    margin: 50px 0;
+    background-attachment: fixed;  
 }
 
 #fundo2 {
     background: fixed center center url(imagens/background002.jpg);
-    background-attachment: fixed;
-    margin: 50px 0;
-}
-
-.dados{
-    text-align: center;
-    font-family: sans-serif;
-    font-weight: lighter;
-    background-color: black;
-    color: white;
-    font-size: 16px;
+    background-attachment: fixed;   
 }
 
 a{
@@ -100,6 +88,15 @@ a:hover{
     text-decoration: underline ;
 }
 
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
 footer > p {
     display: block;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
 }
